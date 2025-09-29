@@ -10,6 +10,7 @@ from datasets.dataset import (
 )
 from datasets.exceptions import AudioNotFoundError, ImageNotFoundError
 
+
 class TestSpecialExceptions(unittest.TestCase):
     """
     Tests that the correct exceptions are raised.
