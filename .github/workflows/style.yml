@@ -9,7 +9,7 @@ on:
 
 jobs:
   code-style:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         python-version: ["3.12"]
@@ -30,7 +30,7 @@ jobs:
         run: uvx ruff check --select ALL --ignore T,D100,D2,D4,ANN002,ANN003,E402,RET504,EM102,TRY003,RUF002,PD011,COM812 --exclude .github --exclude tests
 
   formatting:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         python-version: ["3.12"]
@@ -51,7 +51,7 @@ jobs:
         run: uvx ruff format --diff --exclude .github
 
   type-check:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         python-version: ["3.12"]
