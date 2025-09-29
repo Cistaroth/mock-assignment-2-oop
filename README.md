@@ -1,4 +1,11 @@
 # Assignment 2: The Database
+## Members
+__Group:__ 33
+
+__Members:__
+
+- Chirag Dinesh Ramchandani (S5881919)
+- Tien Huy Anh Luu (S5906261)
 
 ## Preliminaries
 
